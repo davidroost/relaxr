@@ -16,38 +16,48 @@ body {
   }
 
 /*TITLE SECTION*/
-.title-section {
-  background-color: #033048;
-  height: 100px;
-  border: 1px solid white;
-  }
-.title-section h1 {
-  color: white;
-  font-size: 30px;
-  weight: 700;
-  padding-top: 20px;
-  padding-left: 80px;
-  }
-.title-section ul {
-  float: right;
-  padding-top: 20px;
-  padding-right: 15px;
-  }
-.title-section li {
-  display: inline;
-  padding-left: 10px;
-  padding-right: 10px;
-  }
-.title-section a {
-  color: #f9e42e;
-  text-decoration: none;
-  }
+  .title-section {
+    background-color: #033048;
+    height: 100px;
+    border-bottom: 1px solid white;
+    }
+  .title-section ul {
+    float: left;
+    margin-top: 30px;
+    margin-left: 80px;
+    }
+  .title-section li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: middle;
+    }
+  .title-section a {
+    text-decoration: none;
+    }
+  .title-section .title-tab a{
+    color: white;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    padding-left: 0px;
+    padding-right: 250px;
+    }
+  .title-section .informational-tab a {
+    color: #f9e42e;
+    font-family: 'Open-Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    padding-left: 10px;
+    }
+
+
 
 /*SIDEBAR RIGHT SECTION*/
 .sidebar-right-section {
   float: right;
   width: calc(30% - 10px);
-  background-color: red;
+  background-color: #f0efef;
   height: 800px;
   }
 
@@ -55,7 +65,7 @@ body {
 .articles-section {
   float: left;
   width: calc(70% - 10px);
-  background-color: blue;
+  background-color: #f0efef;
   height: 800px;
   }
 .article-preview-section {

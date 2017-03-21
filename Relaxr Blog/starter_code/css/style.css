@@ -1,0 +1,112 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+#container {
+  width: 1000px;
+  margin: auto;
+  background-color: #f0efef
+  }
+
+body {
+  background-color: #f0efef;
+  }
+
+/*TITLE SECTION*/
+.title-section {
+  background-color: #033048;
+  height: 100px;
+  border: 1px solid white;
+  }
+.title-section h1 {
+  color: white;
+  font-size: 30px;
+  weight: 700;
+  padding-top: 20px;
+  padding-left: 80px;
+  }
+.title-section ul {
+  float: right;
+  padding-top: 20px;
+  padding-right: 15px;
+  }
+.title-section li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+.title-section a {
+  color: #f9e42e;
+  text-decoration: none;
+  }
+
+/*SIDEBAR RIGHT SECTION*/
+.sidebar-right-section {
+  float: right;
+  width: calc(30% - 10px);
+  background-color: red;
+  height: 800px;
+  }
+
+/*ARTICLE SECTION*/
+.articles-section {
+  float: left;
+  width: calc(70% - 10px);
+  background-color: blue;
+  height: 800px;
+  }
+.article-preview-section {
+  margin-left: 80px;
+  }
+
+
+
+footer {
+
+  }
+
+
+/*-----
+
+background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
+
+Nav: Semibold, 24px
+
+Layout (some sort of two column layout):
+Main column width: 700px
+Sidebar width: 240px
+Gutter: 20px
+
+Post Titles - 40px, semibold
+"How I implemented Relaxr in 2 weeks and changed my life." (post header)
+"I traveled across the globe thanks to Relaxr’s Excel
+automation" (post header)
+
+Body text (main paragraph text) - Light 24px
+Read More (anchor link) - 24px semibold
+
+Sidebar headers (secondary level heading) - 32px,
+extra bold
+Categories list (navigation list of some sort) - 24px,
+light
+Success stories
+Stats
+How tos
+Best of
+Business tips"
+
+About text (secondary paragraph text) - 22px light
+Proin sed justo vel sapien varius auctor.
+Proin scelerisque massa at luctus tincidunt. F
+usce porttitor, sapien sed tincidunt fringilla.
+Learn More - Semibold, 22*/

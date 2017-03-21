@@ -1,8 +1,6 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Blog
+Author: David Roost
 */
 
 #container {
@@ -10,113 +8,223 @@ Developer @GA in NYC
   margin: auto;
   background-color: #f0efef
   }
-
 body {
   background-color: #f0efef;
   }
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+  }
+.clearfix {
+  display: block;
+  }
+.clearfix:after {
+  clear: both;
+  }
+/********************** TITLE SECTION **********************/
+.title-section {
+  background-color: #033048;
+  height: 100px;
+  border-bottom: 1px solid white;
+  }
+.title-section ul {
+  float: left;
+  margin-top: 33px;
+  margin-left: 80px;
+  }
+.title-section li {
+  display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+  }
+.title-section a {
+  text-decoration: none;
+   }
+.title-section .title-tab a{
+  color: white;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  padding-left: 0px;
+  padding-right: 250px;
+  }
+.title-section .informational-tab a {
+  color: #f9e42e;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  padding-left: 10px;
+  }
 
-/*TITLE SECTION*/
-  .title-section {
-    background-color: #033048;
-    height: 100px;
-    border-bottom: 1px solid white;
-    }
-  .title-section ul {
-    float: left;
-    margin-top: 30px;
-    margin-left: 80px;
-    }
-  .title-section li {
-    display: inline;
-    padding-left: 10px;
-    padding-right: 10px;
-    vertical-align: middle;
-    }
-  .title-section a {
-    text-decoration: none;
-    }
-  .title-section .title-tab a{
-    color: white;
-    font-family: 'Open-Sans', sans-serif;
-    font-size: 30px;
-    font-weight: 900;
-    padding-left: 0px;
-    padding-right: 250px;
-    }
-  .title-section .informational-tab a {
-    color: #f9e42e;
-    font-family: 'Open-Sans', sans-serif;
-    font-size: 19px;
-    font-weight: 300;
-    padding-left: 10px;
-    }
-
-
-
-/*SIDEBAR RIGHT SECTION*/
+/********************** SIDEBAR RIGHT SECTION **********************/
 .sidebar-right-section {
   float: right;
+  color: #033048;
   width: calc(30% - 10px);
   background-color: #f0efef;
   height: 800px;
+  margin-top: 50px;
+  }
+.sidebar-right-section h1 {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  padding-bottom: 20px;
+  }
+.sidebar-right-section a {
+  text-decoration: none;
+  color: #033048;
+  font-family: 'Open-Sans', sans-serif;
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+  }
+.sidebar-right-section a:last-child {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  }
+.sidebar-right-section p {
+  color: #033048;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 30px;
+  line-height: 17px;
+  }
+.sidebar-right-section h2 {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  }
+.ad {
+  background-color: white;
+  height: 300px;
+  width: 200px;
+  margin-top: 20px;
+  }
+.ad h1 {
+  text-align: center;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  padding-top: 20px;
   }
 
-/*ARTICLE SECTION*/
+/********************** ARTICLE SECTION **********************/
 .articles-section {
+  font-family: 'Open-Sans', sans-serif;
   float: left;
   width: calc(70% - 10px);
   background-color: #f0efef;
-  height: 800px;
+  height: 1200px;
+  margin-top: 50px;
+  color: #033048;
   }
 .article-preview-section {
   margin-left: 80px;
   }
-
-
-
-footer {
-
+.article-preview-section h1 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 20px;
+  }
+.article-preview-section img {
+  width: 610px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  }
+.article-preview-section p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  }
+.firstcharacter {
+  float: left;
+  font-weight: 400;
+  font-size: 75px;
+  line-height: 60px;
+  padding-right: 8px;
+  }
+.article-preview-section a {
+  text-decoration: none;
+  color: #033048;
+  }
+.article-preview-section h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+  }
+.article-preview-section hr {
+  /*margin-top: 40px;*/
   }
 
+/********************** BANNER SECTION **********************/
 
-/*-----
+.banner-01-section {
+  clear: both;
+  padding-top: 30px;
+  height: 60px;
+  background-color: #f9e42e;
+  }
+.banner-01-section button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding-top: 10px;
+  font-weight: 600;
+  padding: 8px;
+  background-color: #033048;
+  border: 1px solid white;
+  color: white;
+  border-radius: 3px;
+  webkit-transition-duration: 0.4s; /* Hoverable Button */
+  transition-duration: 0.4s; /* Hoverable Button */
+  }
+.banner-01-section button:hover { /* Hoverable Button */
+  background-color: #f9e42e;
+  color: black;
+  border: 1px solid black;
+  }
 
-background color: #f0efef
-yellow: #f9e42e
-dark blue: #033048
-light grey: #606161
-almost black: #121212
+/********************** FOOTER SECTION **********************/
 
-Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
-Weight: Light, Light Italic, Semibold, Extrabold
-
-Nav: Semibold, 24px
-
-Layout (some sort of two column layout):
-Main column width: 700px
-Sidebar width: 240px
-Gutter: 20px
-
-Post Titles - 40px, semibold
-"How I implemented Relaxr in 2 weeks and changed my life." (post header)
-"I traveled across the globe thanks to Relaxr’s Excel
-automation" (post header)
-
-Body text (main paragraph text) - Light 24px
-Read More (anchor link) - 24px semibold
-
-Sidebar headers (secondary level heading) - 32px,
-extra bold
-Categories list (navigation list of some sort) - 24px,
-light
-Success stories
-Stats
-How tos
-Best of
-Business tips"
-
-About text (secondary paragraph text) - 22px light
-Proin sed justo vel sapien varius auctor.
-Proin scelerisque massa at luctus tincidunt. F
-usce porttitor, sapien sed tincidunt fringilla.
-Learn More - Semibold, 22*/
+footer {
+  display: block;
+  height: 200px;
+  background-color: black;
+  }
+footer h4 {
+  color: #f9e42e;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 800;
+  padding-top: 40px;
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  }
+footer nav {
+  text-align: center;
+  }
+footer img {
+  height: 20px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+footer p {
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 400;
+  padding-top: 20px;
+  color: #606161;
+  }

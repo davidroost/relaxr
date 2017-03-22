@@ -47,7 +47,7 @@ body {
   font-size: 30px;
   font-weight: 900;
   padding-left: 0px;
-  padding-right: 300px;
+  padding-right: 275px;
   }
 .title-section .informational-tab a {
   color: #f9e42e;
@@ -84,6 +84,7 @@ body {
   padding-top: 5px;
   padding-left: 10px;
   }
+
 .sidebar-right-section p {
   color: #033048;
   font-family: 'Open-Sans', sans-serif;
